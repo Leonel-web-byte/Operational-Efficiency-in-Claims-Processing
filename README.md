@@ -10,4 +10,4 @@ The operational efficiency department wants to identify sources of claims proces
 -	Which is the procedure with the highest Avg Processing Time?
 -	Percentage of claims processing after 30 days vs within 30 days
 -	Which are months with the highest Avg Processing Time?
--	Dashboard Interaction
+-	Dashboard Interaction <a href= "https://github.com/Leonel-web-byte/Operational-Efficiency-in-Claims-Processing/blob/main/Claims_P.png">Dashboard</a>
