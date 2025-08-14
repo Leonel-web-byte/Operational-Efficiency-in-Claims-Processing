@@ -1,2 +1,4 @@
 # Operational-Efficiency-in-Claims-Processing
-I developed a comprehensive project in excel, creating multiples dashboards by using Pivot table. The process involved several stages, including data preparation, data cleaning, and data visualization.
+##Project Goal:
+The operational efficiency department wants to identify sources of claims processing times delay and make some decisions to improve it.
+
