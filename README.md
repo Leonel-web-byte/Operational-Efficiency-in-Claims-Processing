@@ -10,7 +10,7 @@ The operational efficiency department wants to identify sources of claims proces
 -	Which is the procedure with the highest Avg Processing Time?
 -	Percentage of claims processing after 30 days vs within 30 days
 -	Which are months with the highest Avg Processing Time?
--	Dashboard Interaction <a href= "https://github.com/Leonel-web-byte/Operational-Efficiency-in-Claims-Processing/blob/main/Claims_P.png">Dashboard</a>
+-	Dashboard Interaction <a href= "https://github.com/Leonel-web-byte/Operational-Efficiency-in-Claims-Processing/blob/main/Claims_P.png"> View Dashboard</a>
 ## Process:
 ## Step 1: Validating and cleaning dates
 -	I verified that for every claim, the Processed Date was equal to or later than the submitted date, which is a logical requirement. This check confirmed that the dates in the dataset are consistent and accurate, so no corrections were necessary.
