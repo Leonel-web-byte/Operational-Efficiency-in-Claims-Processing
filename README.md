@@ -46,5 +46,5 @@ In the dataset, some claims with status “Denied” had missing values in the D
 - To improve the claim processing time an intern strategic plan consists to train again medical biller team because the procedure 99213 and 99214 had the highest processing time and the main reason of denial for these procedures were “No Authorization” and “Unknown”. The Biller team must investigate why some payers didn’t give the reason for some Denial claims, which is slowing down the claim processing time. It could be a data entry issue too.
   
 - Also, before submitting any claim to Blue Cross and Humana, always make sure that the documentation was performed correctly.
-Based on observed spikes in processing time, it would be beneficial to allocate additional staff in March, May, and October to manage the backlog effectively.
+- Based on observed spikes in processing time, it would be beneficial to allocate additional staff in March, May, and October to manage the backlog effectively.
 
