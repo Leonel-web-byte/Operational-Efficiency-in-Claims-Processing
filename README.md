@@ -21,6 +21,7 @@ In the dataset, some claims with status “Denied” had missing values in the D
 - I used this excel formula to do it:
   IF(OR([@Status]="pending",[@Status]="Paid"),"",IF(AND([@Status]="Denied", ISBLANK([@[Denial Reason]])),"Unknown",[@[Denial Reason]]))
 
+
 ## Step 3: Create new field
 - I created a new column called “Processing Time”, which is the number of days between the day a claim was submitted and the day it was processed for “Paid” and “Denied” claims status only.
 - I used this excel formula to do that:
@@ -28,4 +29,7 @@ In the dataset, some claims with status “Denied” had missing values in the D
 
 -	I created a second field called “Claim over 30”, which categorize the claim over 30.
 - I used this Excel formula:
-  IF(OR(ISBLANK([@[Processing Time]]),[@[Processing Time]]=""),"",IF([@[Processing Time]]>30,"Yes","No")).
+  IF(OR(ISBLANK([@[Processing Time]]),[@[Processing Time]]=""),"",IF([@[Processing Time]]>30,"Processing after 30 days","Processing within 30 days")).
+  
+##Dashboard
+<img width="549" height="279" alt="Claims_P" src="https://github.com/user-attachments/assets/2c4be2ac-369f-4dc5-87bb-0f503cd25d05" />
