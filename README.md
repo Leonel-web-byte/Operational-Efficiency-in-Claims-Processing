@@ -31,5 +31,14 @@ In the dataset, some claims with status “Denied” had missing values in the D
 - I used this Excel formula:
   IF(OR(ISBLANK([@[Processing Time]]),[@[Processing Time]]=""),"",IF([@[Processing Time]]>30,"Processing after 30 days","Processing within 30 days")).
   
-##Dashboard
+## Dashboard
 <img width="549" height="279" alt="Claims_P" src="https://github.com/user-attachments/assets/2c4be2ac-369f-4dc5-87bb-0f503cd25d05" />
+
+## Project Insight:
+- Two Payers, Blue Cross and Humana, have the highest Avg Processing Time
+-	53.83% of claims are processed after 30 days
+-	99214 and 99213 have the highest Avg processing Time among the procedures 
+-	Between January and March 2023, the average processing time per claim increased, older cases required more time to be processed.
+-	From April to May 2023, this average slightly increased again
+-	From June to September 2023, the average processing time remained stable then increased in October before decreasing again.
+
